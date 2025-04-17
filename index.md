@@ -1,38 +1,68 @@
 ---
 layout: default
 ---
-I am a researcher in natural language processing. My interests are broad, 
-and I have worked on many scientific, mathematical,
-and engineering problems related to NLP. 
-Most of my research papers can be found on 
-the [ACL Anthology](https://www.aclweb.org/anthology/people/a/adam-lopez/)
-and/ or [Google Scholar](https://scholar.google.co.uk/citations?user=u4sxKZwAAAAJ&sortby=pubdate).
 
-Over my [career](https://www.linkedin.com/in/adam-lopez-nlp-researcher/) I have held roles in both academia and industry, as an engineer, scientist, lecturer, and as director of artificial intelligence at a startup.
-I am currently a [Reader](https://en.wikipedia.org/wiki/Reader_(academic_rank)) 
-at the University of Edinburgh, where I am part of the 
-[Edinburgh natural language processing group](http://groups.inf.ed.ac.uk/edinburghnlp/).
-I am privileged to have advised some immensely talented PhD students, who surely taught me more than I taught them:
+This project aims at supporting research for all aspects of spatiotemporal data modeling with machine learning and addressing many scientific, mathematical, industrial, and engineering problems in:
 
-<div class="students">
-- [Michael Auli](https://michaelauli.github.io/) ([2012](https://era.ed.ac.uk/handle/1842/7636))
-- [Federico Clark-Fancellu](https://www.linkedin.com/in/federico-clark-fancellu-31405b2b) ([2018](https://era.ed.ac.uk/handle/1842/33038))
-- [Sorcha Gilroy](https://uk.linkedin.com/in/sorcha-gilroy-a6105693) ([2019](https://era.ed.ac.uk/handle/1842/35606))
-- [Nikolay Bogoychev](https://www.linkedin.com/in/nikolay-bogoychev-01831023/) ([2019](https://era.ed.ac.uk/handle/1842/35886))
-- [Clara Vania](https://claravania.github.io/) ([2019](https://era.ed.ac.uk/handle/1842/36742))
-- [Arabella Jane Sinclair](https://j-anie.github.io/) ([2019](https://era.ed.ac.uk/handle/1842/37009))
-- [Sameer Bansal](https://www.linkedin.com/in/sameer2718/) ([2019](https://era.ed.ac.uk/handle/1842/36781))
-- [Naomi Saphra](http://nsaphra.github.io/) ([2021](https://era.ed.ac.uk/handle/1842/38154))
-- [Kate McCurdy](https://kmccurdy.github.io/) ([2024](https://era.ed.ac.uk/handle/1842/41429))
-- [Seraphina Goldfarb-Tarrant](https://seraphinatarrant.github.io/) ([2024](https://era.ed.ac.uk/handle/1842/41857))
-- [Andreas Grivas](https://grv.unargmaxable.ai/) ([2024](https://era.ed.ac.uk/handle/1842/42931))
-- [Katarzyna Pruś](https://www.linkedin.com/in/katarzyna-pru%C5%9B-6bb609107/)
-</div>
-
-I am not accepting new students.
+- Urban science & smart cities
+- Human mobility modeling
+- Geospatial data analysis
+- Intelligent & sustainable urban systems
+- Optimization & decision making
+- Data standardization & valorization & monetization
+- Signal processing
+- Network science
+- Graph computing & learning
+- Causal inference & learning
+- Computational engineering
+- Computational social science
 
 
+In the past decade, the development of artificial intelligence and machine learning has been truly remarkable. There are several easy-to-follow posts that are created to explain the essential ideas of this project and inspire innovations:
+
+🌱 [Time Series Convolution](https://spatiotemporal-data.github.io/posts/ts_conv/). A convolutional kernel approach for reinforcing the modeling of time series trends and interpreting temporal patterns, allowing one to leverage Fourier transforms and learn sparse representations. The interpretable machine learning models such as sparse regression unlock opportunities to better capture the long-term changes and temporal patterns of real-world time series. The content is mainly from our research work below.
+
+  - Xinyu Chen, Zhanhong Cheng, HanQin Cai, Nicolas Saunier, Lijun Sun (2024). [Laplacian convolutional representation for traffic time series imputation](https://doi.org/10.1109/TKDE.2024.3419698). *IEEE Transactions on Knowledge and Data Engineering*. 36 (11): 6490-6502.
+  - Xinyu Chen, HanQin Cai, Fuqiang Liu, Jinhua Zhao (2025). [Correlating time series with interpretable convolutional kernels](https://doi.org/10.1109/TKDE.2025.3550877). *IEEE Transactions on Knowledge and Data Engineering*. Early access.
+
+<br>
+
+<p align="center">
+<video style="max-width: 90%; height: auto;" controls>
+  <source src="https://spatiotemporal-data.github.io/video/chicago_ridesharing_ts_example.mov" type="video/mp4">
+</video>
+</p>
+
+<p style="font-size: 14px; color: gray" align = "center"> 🔨 Anotating the weekly periodicity of hourly ridesharing trip time series in Chicago since April 1, 2024.</p>
+
+<br>
 
 
+🌱 [Time-Varying Autoregression](https://spatiotemporal-data.github.io/posts/time_varying_model/). Time-varying autoregression for discovering spatial and temporal patterns of dynamical systems. The system equation includes both time-varying autoregression on the data space and tensor decomposition on the latent space. The content is mainly from our research work below.
+
+  - Xinyu Chen, Chengyuan Zhang, Xiaoxu Chen, Nicolas Saunier, Lijun Sun (2024). [Discovering dynamic patterns from spatiotemporal data with time-varying low-rank autoregression](https://doi.org/10.1109/TKDE.2023.3294440). *IEEE Transactions on Knowledge and Data Engineering*. 36 (2): 504-517.
 
 
+To advance the development of spatiotemporal data modeling in the research community, this project handles various spatiotemporal data:
+
+- [Analyzing millions of taxi trips in the City of Chicago](https://spatiotemporal-data.github.io/Chicago-mobility/taxi-data/)
+- [Constructing human mobility tensor on NYC rideshare trip data](https://spatiotemporal-data.github.io/NYC-mobility/rideshare/)
+- [Utilizing international import and export trade data from WTO Stats](https://spatiotemporal-data.github.io/trade/import-export/)
+
+To contribute to the open science, this project provides a series of tutorials for beginners to understand machine learning and data science, including
+
+- Tensor decomposition for machine learning (see [the detailed page](https://sites.mit.edu/tensor4ml/) at MIT Sites):
+  - Foundation of tensor computations
+  - Foundation of optimization
+
+- Spatiotemporal data visualization in Python:
+  - [High-resolution sea surface temperature data](https://spatiotemporal-data.github.io/climate/sst/)
+  - [Global water vapor patterns](https://spatiotemporal-data.github.io/climate/water-vapor/)
+  - [Germany energy consumption](https://spatiotemporal-data.github.io/energy/E-usage-data/)
+  - [Station-level USA temperature data](https://spatiotemporal-data.github.io/climate/daymet/)
+  - Service-level mobile traffic data
+
+For those who are interested in broad areas within the scope, we would like to recommend a series of [well-documented reading notes](https://spatiotemporal-data.github.io/bib/).
+
+<br>
+<br>
