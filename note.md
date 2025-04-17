@@ -9,7 +9,9 @@ layout: default
 <br>
 
 ### 1th Mile
-#### End-to-end optimization under uncertainty
+#### End-to-end optimization under uncertainty for bike sharing systems
+
+Could consider spatiotemporally varying demand distribution and make stochastic optimization for bike sharing systems.
 
 References:
 
